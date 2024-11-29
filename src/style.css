@@ -1,3 +1,24 @@
+:root {
+
+  /* colors */
+  --primary-txt-clr: hsl(0, 0% 100%);
+  --primary-bg-clr: hsl(240, 67%, 8%);
+  --primary-btn-hover-grey-clr: hsl(240, 17%, 26%);
+  --primary-lte-grey-clr: hsl(240, 6%, 54%);
+  --primary-mercury-blue-clr: hsl(194, 48%, 49%);
+  --primary-venus-yellow-clr: hsl(33, 82%, 61%);
+  --primary-earth-purple-clr: hsl(263, 67%, 51%);
+  --primary-mars-red-clr: hsl(10, 63%, 51%);
+  --primary-jupiter-red-clr: hsl(2, 68%, 53%);
+  --primary-saturn-red-clr: hsl(17, 73%, 46%);
+  --primary-uranus-green-clr: hsl(169, 73%, 44%);
+  --primary-neptune-blue-clr: hsl(222, 87%, 56%);
+
+
+
+}
+
+
 body {
-  background-color: blue;
+  background-color: var(--primary-bg-clr);
 }
